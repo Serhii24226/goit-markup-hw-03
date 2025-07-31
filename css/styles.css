@@ -35,6 +35,22 @@ button {
     padding: 0 15px;
 }
 
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-header {
+    align-items: center;
+    display: flex;
+    gap: 76px;
+
+
+
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -49,7 +65,19 @@ button {
     color: #2E2F42;
 }
 
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .menu-item-link {
+
+
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -63,10 +91,13 @@ button {
 }
 
 .header-address {
-    font-style: normal
+    font-style: normal;
+
 }
 
 .menu-address {
+    display: flex;
+    gap: 40px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
